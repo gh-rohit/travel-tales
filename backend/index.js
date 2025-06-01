@@ -29,7 +29,7 @@ const port = process.env.PORT || 3000;
 // Enable CORS for frontend (Replace with your frontend URL)
 app.use(
   cors({
-    origin: "https://personal-travel-diary-app-frontend.onrender.com", //frontend URL
+    origin: "https://travel-tales-frontend-ugd2.onrender.com", //frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"], // Allow CRUD operations
     credentials: true, // Allow cookies & authorization headers
   })
